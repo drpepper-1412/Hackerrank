@@ -8,6 +8,3 @@ def lnds(input):
 
     return max(arr)
 
-
-print(lnds([5, 3, 4, 8, 6, 7]))
-

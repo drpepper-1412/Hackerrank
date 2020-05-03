@@ -67,7 +67,3 @@ def getWays(n, c):
 
     return arr[n]
 
-
-print(getWays(10, [2, 5, 3, 6]))
-
-

@@ -11,6 +11,3 @@ def cost(B):
 
     return max(arr[-1])
 
-
-print(cost([1, 2, 3]))
-

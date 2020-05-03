@@ -11,6 +11,3 @@ def zifzag(input):
                 arr[i][1] = arr[j][0] + 1
 
     return max(sum(arr, []))
-
-
-print(zifzag([70, 55, 13, 2, 99, 2, 80, 80, 80, 80, 100, 19, 7, 5, 5, 5, 1000, 32, 32]))
