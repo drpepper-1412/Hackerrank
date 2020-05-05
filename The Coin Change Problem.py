@@ -67,3 +67,4 @@ def getWays(n, c):
 
     return arr[n]
 
+

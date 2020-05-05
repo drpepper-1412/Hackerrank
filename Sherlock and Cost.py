@@ -11,3 +11,4 @@ def cost(B):
 
     return max(arr[-1])
 
+
