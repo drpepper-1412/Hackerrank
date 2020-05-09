@@ -7,10 +7,10 @@ def fg(height, bloom, wilt):
         move_cuz_of_height = k
 
         for m in range(k-1, -1, -1):
-            if ((dic[height[k]][0] > dic[height[m]][1] or
-                 dic[height[k]][1] < dic[height[m]][0]) and height[k] > height[m]):
+            if ((dic[height[k]][0] > dic[height[m]][1] or dic[height[k]][1] < dic[height[m]][0])
+                    and height[k] > height[m]):
                 move_cuz_of_height = m
-            elif dic[height[k]][0] <= dic[height[m]][1]:
+            elif dic[height[k]][0] <= dic[height[m]][1] and dic[height[k]][1] >= dic[height[m]][0]:
                 if height[k] < height[m]:
                     move_cuz_of_date = m
                 else:
